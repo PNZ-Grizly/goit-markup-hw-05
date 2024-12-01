@@ -675,11 +675,13 @@ button {
   padding: 0;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .icon-click {
   color: #ffffff;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 .click-button:hover,
 .click-button:focus {
@@ -869,6 +871,7 @@ input [type="checkbox"]:checked + .checkbox-privacy .check .icon-checkbox {
   text-align: center;
   color: #fff;
   fill: #ffffff;
+  cursor: pointer;
 }
 .icon-modal:hover,
 .icon-modal:focus {
